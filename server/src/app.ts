@@ -25,7 +25,7 @@ class Server {
     route(): void {
         this.app.use(usuarioRoutes);
         this.app.use(categoriasRoutes)
-        this.app.use(routesEstados)
+        this.app.use(routesEstados)// ruda de esatdos
     }
 
     start(): void {
